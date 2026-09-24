@@ -20,6 +20,11 @@ I configured the server and connected it to a NAT network so it could access the
 ## DNS
 
 I installed the DNS Server role through Server Manager and created a Forward Lookup Zone.
+![VM](../screenshots/server-manager.png)
+![VM](../screenshots/server-roles.png)
+![VM](../screenshots/dns-server.png)
+![VM](../screenshots/dns-server-install.png)
+![VM](../screenshots/forward-lookup-zone.png)
 
 I then used `nslookup` to test whether DNS was resolving names correctly.
 
@@ -35,18 +40,26 @@ I created a shared folder called SharedFiles and configured its permissions.
 The folder was set up so users could read the files without having permission to edit or delete them.
 
 This gave me experience with basic file sharing and access permissions on Windows Server.
+![VM](../screenshots/shared-folder.png)
+![VM](../screenshots/shared-settings.png)
 
 IIS Web Server
 
 I installed Internet Information Services (IIS) through Server Manager.
+![VM](../screenshots/iis-installation.png)
+
 
 I then created an index.html file in:
 
+![VM](../screenshots/index.png)
 C:\inetpub\wwwroot
 
 I accessed the server using its IP address from the host machine and confirmed that the webpage loaded successfully.
 
+![VM](../screenshots/wwwroot.png)
 This gave me some practical experience with installing a server role, configuring a basic website and testing connectivity.
+
+![VM](../screenshots/websiteconfig.png)
 
 Windows Server Security
 
