@@ -1,75 +1,82 @@
 # IT Support Portfolio
 
-A practical portfolio showing my understanding of first-line IT support and common service desk tasks.
+This is my practical IT support portfolio, showing some of the troubleshooting, networking and server work I have completed while studying Web Development & Cyber Security.
 
-## About
+I am currently looking to move into an entry-level IT support or service desk role.
 
-I created this portfolio to practise troubleshooting and document how I would approach common IT support issues.
+## What is included
 
-I have a BSc in Web Development & Cyber Security and I'm currently looking to start my career in IT support / service desk.
+### Troubleshooting
 
-## What I've Practised
+Practical examples of how I would approach common IT support problems.
 
-### Network Troubleshooting
-- Checking IP configuration using `ipconfig`
-- Testing connectivity using `ping`
-- Checking DNS using `nslookup`
-- Reviewing Windows network settings
+* [Network Troubleshooting](troubleshooting/network-troubleshooting.md)
+* [Password & Account Issues](troubleshooting/password-account-issues.md)
+* [Printer Troubleshooting](troubleshooting/printer-troubleshooting.md)
+* [Software Issues](troubleshooting/software-issues.md)
 
-### Password & Account Issues
-- Checking Windows sign-in options
-- Identifying common questions to ask when a user cannot sign in
-- Understanding when an issue may need to be escalated
+### Server Labs
 
-### Printer Troubleshooting
-- Checking printers and scanners in Windows
-- Basic checks for printer issues
-- Considering whether the issue affects one user or multiple users
+I previously worked with both Windows Server and Ubuntu Server during a university practical project.
 
-### Software Issues
-- Checking installed applications
-- Using Task Manager to check running applications and processes
-- Basic approach to application troubleshooting
+* [Windows Server 2022 Lab](server-lab/windows-server.md)
+* [Ubuntu Server Lab](server-lab/linux-server.md)
+* [Full University Server Practical Report](reports/university-server-practical.pdf)
 
-## Service Desk Examples
+The server work included networking, DNS, file sharing, IIS, Apache, PHP, MySQL, user permissions and basic server security.
 
-I have also created a simulated support ticket to practise how I would record:
+### Troubleshooting Case Studies
 
-- The user's issue
-- Impact and priority
-- Troubleshooting carried out
-- Resolution
-- Escalation if required
+Examples of problems I encountered during my server practicals and how I investigated them.
 
-## My Approach
+* [Server Troubleshooting Case Studies](troubleshooting-case-studies/server-troubleshooting.md)
 
-When dealing with an IT issue, I would generally:
+These include issues involving network configuration, XAMPP services, PHP/MySQL connections and BitLocker.
+
+### Support Tickets
+
+I also created a simulated support ticket to practise documenting an issue in a service desk environment.
+
+* [Example Support Ticket](ticket-examples/example-support-ticket.md)
+
+### Documentation
+
+* [Incident Priority](documentation/incident-priority.md)
+
+## My Approach to IT Support
+
+When dealing with an IT issue, I would normally:
 
 1. Understand the problem
-2. Ask questions to narrow it down
+2. Ask questions and gather information
 3. Carry out basic checks
-4. Try a suitable solution
-5. Confirm whether the issue is resolved
-6. Document what was done
-7. Escalate if necessary
+4. Investigate the likely cause
+5. Try an appropriate solution
+6. Test that the problem has been resolved
+7. Document what was done
+8. Escalate if necessary
 
-## Technologies & Tools
+## Tools & Technologies
 
-- Windows
-- Command Prompt
-- Git & GitHub
-- Microsoft 365
-- VMware
-- Windows Server
-- Ubuntu
-- Basic networking
-- Basic troubleshooting
+* Windows
+* Windows Server 2022
+* Ubuntu Server
+* Command Prompt
+* Basic Linux commands
+* VMware Workstation
+* DNS
+* IIS
+* Apache
+* MySQL
+* PHP
+* Git & GitHub
+* Microsoft 365
+* Basic networking
+* Basic security and firewall configuration
 
-## Portfolio Sections
+## About Me
 
-- [Network Troubleshooting](troubleshooting/network-troubleshooting.md)
-- [Password & Account Issues](troubleshooting/password-account-issues.md)
-- [Printer Troubleshooting](troubleshooting/printer-troubleshooting.md)
-- [Software Issues](troubleshooting/software-issues.md)
-- [Example Support Ticket](ticket-examples/example-support-ticket.md)
-- [Incident Priority](documentation/incident-priority.md)
+I have a BSc in Web Development & Cyber Security and am particularly interested in IT support, service desk and technical support roles.
+
+This portfolio is a record of practical work I have completed and skills I have developed while studying and working on technical projects.
+
