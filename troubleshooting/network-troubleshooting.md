@@ -1,49 +1,26 @@
-# Network Connection Troubleshooting
+# Network Troubleshooting
 
-## Scenario
+I used my own Windows laptop to practise some basic network troubleshooting.
 
-A user reports that their computer cannot connect to the internet.
+## If a user couldn't connect
 
-## Initial Questions
+The first things I'd check are:
 
-Before making changes, I would establish:
-
-- Is the issue affecting only this user or multiple users?
-- Is the device connected through Wi-Fi or Ethernet?
+- Are they connected to Wi-Fi or Ethernet?
+- Is it just them or are other people affected?
 - When did the problem start?
-- Is there an error message?
-- Can the user access any websites or internal systems?
-- Did anything change before the issue occurred?
+- Are they getting an error?
+- Can they access any websites?
 
-## Initial Checks
+## Checking the network information
 
-1. Check whether Wi-Fi or Ethernet is connected.
-2. Check whether Airplane Mode is enabled.
-3. Check whether other devices can connect to the same network.
-4. Restart the network connection if appropriate.
-5. Restart the computer if appropriate.
-6. Check the device's network settings.
+I used `ipconfig` to see the IP address, subnet mask and default gateway on my laptop.
 
-## Technical Checks
+![IP configuration](../screenshots/ipconfig.png)
 
-If the basic checks do not resolve the issue, I would investigate further using appropriate Windows networking tools.
+## Testing the connection
 
-Examples include:
-
-- `ipconfig`
-- `ping`
-- `nslookup`
-
-These can help identify whether the device has an IP address, whether it can communicate with another device, and whether DNS resolution is working.
-
-## Example Commands
-
-### Check IP configuration
+I used `ping` to test whether my laptop could reach an external IP address.
 
 ```cmd
-ipconfig
-
-
-```markdown
-!![Ping connectivity test](../screenshots/ping.png)
-
+ping 8.8.8.8
