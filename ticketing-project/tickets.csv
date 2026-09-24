@@ -1,0 +1,9 @@
+Ticket ID,Issue,Category,Priority,User Impact,Initial Checks,Resolution,Status
+INC001,User cannot connect to Wi-Fi,Network,Medium,Single user,Checked Wi-Fi connection and IP configuration,Reconnected to network,Resolved
+INC002,Printer is not printing,Hardware,Low,Single user,Checked printer status and print queue,Cleared stuck print job,Resolved
+INC003,User cannot sign in,Account,High,Single user,Checked account status and sign-in error,Followed account recovery process,Resolved
+INC004,Application keeps crashing,Software,Medium,Single user,Checked error message and restarted application,Reinstalled application,Resolved
+INC005,Several users cannot access shared files,Access,High,Multiple users,Checked network connection and permissions,Escalated after initial checks,Escalated
+INC006,Computer is running slowly,Performance,Low,Single user,Checked Task Manager and available storage,Removed unnecessary startup applications,Resolved
+INC007,Website cannot be reached,Network,Medium,Single user,Tested connectivity and DNS resolution,Identified DNS issue and escalated,Escalated
+INC008,User needs access to a shared folder,Access,Low,Single user,Checked requested access and permissions,Access granted following procedure,Resolved
