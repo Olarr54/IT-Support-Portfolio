@@ -35,9 +35,10 @@ These include issues involving network configuration, XAMPP services, PHP/MySQL 
 
 ### Support Tickets
 
-I also created a simulated support ticket to practise documenting an issue in a service desk environment.
+I created examples to practise documenting, categorising and prioritising IT support issues.
 
-* [Example Support Ticket](ticket-examples/example-support-ticket.md)
+- [Example Support Ticket](ticket-examples/example-support-ticket.md)
+- [IT Support Ticketing Project](ticketing-project/README.md)
 
 ### Documentation
 
